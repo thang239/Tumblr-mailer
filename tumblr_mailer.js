@@ -8,10 +8,10 @@ var mandrill = require('mandrill-api/mandrill');
 var mandrill_client = new mandrill.Mandrill('GRkq0iY8xIgbSHPkT3c61g');
 
 var client = tumblr.createClient({
-  consumer_key: '2iVupBJVazzamsmLnZu5y11rIgNL5WCtaS58FyBcDWgppXZBjh',
-  consumer_secret: '4AWj6dP5zQ9PaFjqvyyDQygOIAS8iYEO9onO4sTx15Ujb37yZu',
-  token: 'DaIJKtbEmIJjYRBwmgSXVll9I8gtC7IDcYdMLT8wZM8EkBid3J',
-  token_secret: 'kbiDJvLiutf7FydR8ImnsIBhJcJOKGzotG22rEMKE2vrC7YZRc'
+  consumer_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  consumer_secret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  token: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  token_secret: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 });
 
 
