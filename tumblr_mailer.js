@@ -5,7 +5,7 @@ var csvFile = fs.readFileSync("friend_list.csv","utf8");
 var emailTemplate = fs.readFileSync('email_template.html', 'utf8');
 
 var mandrill = require('mandrill-api/mandrill');
-var mandrill_client = new mandrill.Mandrill('GRkq0iY8xIgbSHPkT3c61g');
+var mandrill_client = new mandrill.Mandrill('xxxxxxxxxxxxxxxxxx');
 
 var client = tumblr.createClient({
   consumer_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
